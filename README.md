@@ -26,9 +26,14 @@ This assignment aims to familiarize you with the tools and configurations necess
 
 6. Configure a Database (MySQL):
    Download and install MySQL database. https://dev.mysql.com/downloads/windows/installer/5.7.html
+  
+   https://docs.google.com/document/d/1gZ0LlHVkR3FDGlzOrak8UtYGzfpsLo-j/edit?usp=sharing&ouid=112011899427860736018&rtpof=true&sd=true
 
 7. Set Up Development Environments and Virtualization (Optional):
    Consider using virtualization tools like Docker or virtual machines to isolate project dependencies and ensure consistent environments across different machines.
+   
+when setting up our virtual environment, we open our IDE thats gitbus then create a folder where we will run our virtual environmet using code "mkdir (folder name) then when done we navigate to the created folder with with change directory instruction. While inside the directory, we open python by running "python --version". after running python we install virtualenvironment with code "python -m pip install virtualenv" We then give it a special name with code "python - virtualenv (given name). After that wethen activate our environment with code "source envname/scripts/activate". To install Django in our environment, we run code "python -m pip install Django" we then start and run our project with "django -admin startproject (project name)"
+
 
 8. Explore Extensions and Plugins:
    Explore available extensions, plugins, and add-ons for your chosen text editor or IDE to enhance functionality, such as syntax highlighting, linting, code formatting, and version control integration.
